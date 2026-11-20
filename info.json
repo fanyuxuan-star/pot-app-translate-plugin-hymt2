@@ -1,0 +1,62 @@
+{
+  "id": "plugin.cn.hymt2.translate",
+  "plugin_type": "translate",
+  "icon": "hymt2.svg",
+  "display": "Hy-MT2 内网翻译",
+  "homepage": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+  "needs": [
+    { "key": "baseUrl", "display": "请求地址（留空用内网默认）", "type": "input" },
+    { "key": "apiKey", "display": "API Key（Bearer）", "type": "input" },
+    { "key": "model", "display": "模型名（留空用 1.8B-FP8）", "type": "input" },
+    {
+      "key": "domain",
+      "display": "翻译领域",
+      "type": "select",
+      "options": {
+        "general": "通用",
+        "legal": "法律 / 合同",
+        "medical": "医疗 / 医药",
+        "finance": "金融 / 财务",
+        "tech": "计算机 / 软件",
+        "government": "政务 / 公文",
+        "academic": "学术 / 论文",
+        "game": "游戏本地化",
+        "literature": "文学 / 出版",
+        "ecommerce": "电商 / 营销",
+        "custom": "自定义领域"
+      }
+    },
+    { "key": "domainHint", "display": "领域补充要求（可选）", "type": "input" },
+    { "key": "glossary", "display": "术语表（原文=译文，可选）", "type": "input" }
+  ],
+  "language": {
+    "auto": "auto",
+    "zh_cn": "zh",
+    "zh_tw": "zh-Hant",
+    "mn_mo": "mn",
+    "en": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "fr": "fr",
+    "es": "es",
+    "ru": "ru",
+    "de": "de",
+    "it": "it",
+    "tr": "tr",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi": "vi",
+    "id": "id",
+    "th": "th",
+    "ms": "ms",
+    "ar": "ar",
+    "hi": "hi",
+    "km": "km",
+    "mn_cy": "mn",
+    "fa": "fa",
+    "pl": "pl",
+    "nl": "nl",
+    "uk": "uk",
+    "he": "he"
+  }
+}
