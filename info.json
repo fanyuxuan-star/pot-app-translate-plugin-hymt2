@@ -3,9 +3,9 @@
   "plugin_type": "translate",
   "icon": "hymt2.svg",
   "display": "Hy-MT2 内网翻译",
-  "homepage": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+  "homepage": "https://github.com/fanyuxuan-star/pot-app-translate-plugin-hymt2",
   "needs": [
-    { "key": "baseUrl", "display": "请求地址（留空用内网默认）", "type": "input" },
+    { "key": "baseUrl", "display": "请求地址（留空自动选择）", "type": "input" },
     { "key": "apiKey", "display": "API Key（Bearer）", "type": "input" },
     { "key": "model", "display": "模型名（留空用 1.8B-FP8）", "type": "input" },
     {

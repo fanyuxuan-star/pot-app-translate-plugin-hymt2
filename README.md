@@ -186,11 +186,15 @@ python -c "import zipfile; z=zipfile.ZipFile('plugin.cn.hymt2.translate.potext',
 │   ├── relay-hymt2.js     # 127.0.0.1:18766 -> 10.200.8.204:9090
 │   ├── start-relay.vbs    # 隐藏窗口启动
 │   └── install-relay.ps1  # 安装到 %APPDATA% 并设置登录自启
+├── plugin.cn.hymt2.translate.potext  # 已打包插件
 ├── tests/test.mjs     # 本地模拟测试
 ├── README.md
 └── LICENSE
 ```
 
-## 发布前替换
+## 仓库
 
-`info.json` 中的 `homepage` 目前指向 Hy-MT2 官方仓库。如果把插件发布到自己的仓库，建议改成插件仓库地址；`id` 也可以按团队命名规范调整，但必须以 `plugin` 开头，并同步修改 `.potext` 文件名。
+- GitHub：<https://github.com/fanyuxuan-star/pot-app-translate-plugin-hymt2>
+- 插件 ID：`plugin.cn.hymt2.translate`
+- 插件包：仓库根目录的 `plugin.cn.hymt2.translate.potext`
+- `info.json` 的 `homepage` 已指向该仓库。
